@@ -2,5 +2,7 @@
 
 public enum MessageStatus
 {
-    
+    Accepted,
+    Rejected,
+    InReview
 }
