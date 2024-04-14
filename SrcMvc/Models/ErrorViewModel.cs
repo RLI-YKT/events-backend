@@ -1,4 +1,4 @@
-namespace src_asp.Models;
+namespace SrcMvc.Models;
 
 public class ErrorViewModel
 {

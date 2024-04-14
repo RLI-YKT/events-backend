@@ -1,11 +1,18 @@
-﻿namespace SrcMvc.Models.EventModels;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class EventModel
+namespace SrcMvc.Models.EventModels;
+
+public class Event
 {
     public int Id { get; set; }
-    public int AuthorId { get; set; }
-    public EventType EvenType { get; set; }
+    
+    [Required]
+    public EventType EventType { get; set; }
+    
+    [Required]
     public string Name { get; set; }
+    
+    [Required]
     public string Description { get; set; }
 
     // Contacts

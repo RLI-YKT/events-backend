@@ -1,9 +1,18 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace SrcMvc.Models.EventModels;
 
-public class AdminModel
+public class Admin
 {
+    [Key]
     public int Id { get; set; }
+    
+    [Required]
     public string Name { get; set; }
+    
+    [Required]
     public string Login { get; set; }
+    
+    [Required]
     public string Password { get; set; }
 }

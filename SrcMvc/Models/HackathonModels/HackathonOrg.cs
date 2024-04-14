@@ -1,6 +1,6 @@
 ﻿namespace SrcMvc.Models.HackathonModels;
 
-public class HackathonOrgModel
+public class HackathonOrg
 {
     public int Id { get; set; }
     public string Name { get; set; }
