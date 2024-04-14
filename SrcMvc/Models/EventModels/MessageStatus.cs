@@ -1,4 +1,4 @@
-﻿namespace src_asp.Models.EventModels;
+﻿namespace SrcMvc.Models.EventModels;
 
 public enum MessageStatus
 {

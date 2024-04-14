@@ -1,4 +1,4 @@
-﻿namespace src_asp.Models.HackathonModels;
+﻿namespace SrcMvc.Models.HackathonModels;
 
 public class HackathonOrgModel
 {

@@ -1,4 +1,4 @@
-﻿namespace src_asp.Models.OlympiadModels;
+﻿namespace SrcMvc.Models.OlympiadModels;
 
 public class UniversityModel
 {

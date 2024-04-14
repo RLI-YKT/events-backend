@@ -7,8 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\ModelBuilders\Implementations\EventModels\" />
-      <Folder Include="Services\ModelBuilders\Interfaces\" />
+      <Folder Include="Services\Builders\Implementations\" />
+      <Folder Include="Services\Builders\Interfaces\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.2" />
     </ItemGroup>
 
 </Project>
