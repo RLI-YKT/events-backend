@@ -1,4 +1,4 @@
-using SrcASP.Infrastructure.Repositories;
+using SrcASP.Repositories;
 
 namespace SrcASP
 {
