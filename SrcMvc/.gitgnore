@@ -1,0 +1,18 @@
+# Папки
+bin/
+obj/
+.vs/
+node_modules/
+packages/
+.idea/
+.vscode/
+
+# Файлы
+*.suo
+*.user
+*.sln.cache
+
+# ASP.NET Core
+appsettings.json
+appsettings.Development.json
+launchSettings.json
