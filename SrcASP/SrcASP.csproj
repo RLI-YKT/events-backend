@@ -79,7 +79,7 @@
 
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <Folder Include="Services\Exceptions\" />
     </ItemGroup>
 
 </Project>
